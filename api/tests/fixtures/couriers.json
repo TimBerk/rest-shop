@@ -1,0 +1,114 @@
+[
+  {
+    "model": "api.courier",
+    "pk": 1,
+    "fields": {
+      "type": "foot"
+    }
+  },
+  {
+    "model": "api.courier",
+    "pk": 2,
+    "fields": {
+      "type": "bike"
+    }
+  },
+  {
+    "model": "api.courier",
+    "pk": 3,
+    "fields": {
+      "type": "car"
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 1,
+    "fields": {
+        "courier": 1,
+        "region_id": 1
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 2,
+    "fields": {
+        "courier": 1,
+        "region_id": 12
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 3,
+    "fields": {
+        "courier": 1,
+        "region_id": 22
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 4,
+    "fields": {
+        "courier": 2,
+        "region_id": 22
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 5,
+    "fields": {
+        "courier": 3,
+        "region_id": 12
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 6,
+    "fields": {
+        "courier": 3,
+        "region_id": 22
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 7,
+    "fields": {
+        "courier": 3,
+        "region_id": 23
+    }
+  },
+  {
+    "model": "api.courierregion",
+    "pk": 8,
+    "fields": {
+        "courier": 3,
+        "region_id": 33
+    }
+  },
+  {
+      "model": "api.courierwork",
+      "pk": 1,
+      "fields": {
+          "courier": 1,
+          "time_from": "11:35:00",
+          "time_to": "14:05:00"
+      }
+  },
+  {
+      "model": "api.courierwork",
+      "pk": 2,
+      "fields": {
+          "courier": 1,
+          "time_from": "09:00:00",
+          "time_to": "11:00:00"
+      }
+  },
+  {
+      "model": "api.courierwork",
+      "pk": 3,
+      "fields": {
+          "courier": 2,
+          "time_from": "09:00:00",
+          "time_to": "18:00:00"
+      }
+  }
+]

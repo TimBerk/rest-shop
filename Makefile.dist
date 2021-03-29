@@ -1,0 +1,16 @@
+run:
+	@poetry run python manage.py runserver
+migrate:
+	@poetry run python manage.py makemigrations --noinput
+	@poetry run python manage.py migrate
+lint:
+	@poetry run black ./
+	@poetry run flakehell lint
+shell:
+	@poetry run python manage.py shell
+static:
+	@poetry run python manage.py collectstatic
+get-fixtures:
+	@poetry run python manage.py dumpdata api.CourierType --indent 4 > api/fixtures/courier_type.json
+fixtures:
+	@poetry run python manage.py loaddata api/fixtures/courier_type.json

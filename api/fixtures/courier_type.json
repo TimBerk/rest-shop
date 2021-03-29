@@ -1,0 +1,26 @@
+[
+  {
+    "model": "api.couriertype",
+    "pk": "foot",
+    "fields": {
+      "weight": 10,
+      "coefficient": 2
+    }
+  },
+  {
+    "model": "api.couriertype",
+    "pk": "bike",
+    "fields": {
+      "weight": 15,
+      "coefficient": 5
+    }
+  },
+  {
+    "model": "api.couriertype",
+    "pk": "car",
+    "fields": {
+      "weight": 50,
+      "coefficient": 9
+    }
+  }
+]

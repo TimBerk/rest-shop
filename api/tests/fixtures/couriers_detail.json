@@ -1,0 +1,183 @@
+[
+  {
+    "model": "api.order",
+    "pk": 1,
+    "fields": {
+      "weight": 20,
+      "region": 12,
+      "is_delivered": true,
+      "courier_id": 1,
+      "courier_price": 4500.00,
+      "assign_time": "2021-01-11T09:35:00.42Z",
+      "complete_time": "2021-01-11T10:00:00.42Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 2,
+    "fields": {
+      "weight": 5,
+      "region": 22,
+      "is_delivered": true,
+      "courier_id": 2,
+      "courier_price": 2500.00,
+      "assign_time": "2021-01-11T09:35:00.42Z",
+      "complete_time": "2021-01-11T10:00:00.42Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 3,
+    "fields": {
+      "weight": 0.05,
+      "region": 1,
+      "is_delivered": true,
+      "courier_id": 1,
+      "courier_price": 1000.00,
+      "assign_time": "2021-01-11T10:10:00.42Z",
+      "complete_time": "2021-01-11T12:05:00.42Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 4,
+    "fields": {
+      "weight": 1.5,
+      "region": 1,
+      "is_delivered": true,
+      "courier_id": 1,
+      "courier_price": 1000.00,
+      "assign_time": "2021-01-11T10:10:00.42Z",
+      "complete_time": "2021-01-11T12:25:00.42Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 5,
+    "fields": {
+      "weight": 2.5,
+      "region": 22,
+      "is_delivered": true,
+      "courier_id": 2,
+      "courier_price": 2500.00,
+      "assign_time": "2021-01-11T09:35:00.42Z",
+      "complete_time": "2021-01-11T10:40:00.42Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 6,
+    "fields": {
+      "weight": 7,
+      "region": 22,
+      "is_delivered": true,
+      "courier_id": 2,
+      "courier_price": 2500.00,
+      "assign_time": "2021-01-11T09:35:00.42Z",
+      "complete_time": "2021-01-11T11:50:00.42Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 7,
+    "fields": {
+      "weight": 2,
+      "region": 22,
+      "is_delivered": true,
+      "courier_id": 1,
+      "courier_price": 1000.00,
+      "assign_time": "2021-01-11T10:10:00.42Z",
+      "complete_time": "2021-01-11T13:50:00.42Z"
+    }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 1,
+      "fields": {
+          "order": 1,
+          "time_from": "09:00:00",
+          "time_to": "10:00:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 2,
+      "fields": {
+          "order": 2,
+          "time_from": "9:00:00",
+          "time_to": "12:00:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 3,
+      "fields": {
+          "order": 3,
+          "time_from": "12:00:00",
+          "time_to": "14:00:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 4,
+      "fields": {
+          "order": 4,
+          "time_from": "12:15:00",
+          "time_to": "14:15:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 5,
+      "fields": {
+          "order": 4,
+          "time_from": "18:00:00",
+          "time_to": "21:00:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 6,
+      "fields": {
+          "order": 5,
+          "time_from": "08:00:00",
+          "time_to": "11:00:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 7,
+      "fields": {
+          "order": 5,
+          "time_from": "18:00:00",
+          "time_to": "20:00:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 8,
+      "fields": {
+          "order": 6,
+          "time_from": "12:30:00",
+          "time_to": "14:30:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 9,
+      "fields": {
+          "order": 7,
+          "time_from": "13:00:00",
+          "time_to": "16:00:00"
+      }
+  },
+  {
+      "model": "api.orderdelivery",
+      "pk": 10,
+      "fields": {
+          "order": 7,
+          "time_from": "18:00:00",
+          "time_to": "20:00:00"
+      }
+  }
+]
